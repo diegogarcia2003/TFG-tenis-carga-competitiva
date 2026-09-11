@@ -72,7 +72,7 @@ Para reproducir completamente el análisis desde los datos originales:
 2. Descomprima el archivo descargado y localice en su interior la carpeta `atp`.
 3. Copie dicha carpeta en la raíz de este repositorio y renómbrela como `tennis_atp-master`. Debe quedar al mismo nivel que los notebooks:
 
-text
+```text
 TFG-tenis-carga-competitiva/
 ├── 01_preparacion_datos_atp.ipynb
 ├── 02_transformacion_y_preparacion_predictores_tradicionales.ipynb
@@ -83,7 +83,7 @@ TFG-tenis-carga-competitiva/
     ├── atp_matches_2009.csv
     ├── ...
     └── atp_matches_2024.csv
-
+```
 ## Dependencias
 
 La ejecución final del proyecto se realizó con **Python 3.12.5**. Las dependencias directas y sus versiones exactas se recogen en `requirements.txt`.
