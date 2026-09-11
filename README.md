@@ -19,7 +19,7 @@ Los datos utilizados fueron descargados originalmente del repositorio **tennis_a
 
 Para mantener la trazabilidad y facilitar la reproducción, se referencia una copia archivística de terceros que conserva los datos ATP de Jeff Sackmann:
 
-`https://github.com/Aneeshers/tennis-sackmann-archive/tree/main/atp`
+[Copia archivística de los datos ATP de Jeff Sackmann](https://github.com/Aneeshers/tennis-sackmann-archive/tree/main/atp)
 
 Los archivos de datos originales e intermedios no se incluyen en este repositorio. La procedencia, los periodos utilizados y la ubicación necesaria para reproducir el pipeline se documentan en `data/README.md`.
 
