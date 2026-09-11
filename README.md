@@ -60,6 +60,10 @@ Los notebooks están numerados según el orden recomendado de ejecución:
 8. `08_auditoria_seleccion_temporal.ipynb` — Audita retrospectivamente la estabilidad temporal de las principales decisiones de selección de variables utilizando exclusivamente los periodos de desarrollo.
 9. `09_evaluacion_temporal_externa_2024.ipynb` — Ajusta las configuraciones previamente congeladas sobre el conjunto de desarrollo y realiza la evaluación temporal externa de 2024, incluyendo bootstrap, importancia por permutación y comprobaciones complementarias.
 
+## Consulta del trabajo
+
+Los notebooks se publican con sus celdas ejecutadas y sus resultados guardados. Por tanto, para revisar el código, los análisis y los resultados no es necesario descargar los datos ni volver a ejecutar el pipeline. Los pasos siguientes solo son necesarios si se desea reproducir completamente el análisis desde los datos originales.
+
 ## Reproducción básica
 
 1. Obtenga los datos ATP necesarios desde la copia archivística indicada en `data/README.md`.
@@ -82,9 +86,24 @@ La documentación específica sobre los datos originales y su procedencia se rec
 
 ## Licencias y recursos externos
 
-Las dependencias utilizadas mantienen sus respectivas licencias.
+Las dependencias utilizadas mantienen sus respectivas licencias:
 
-La copia archivística utilizada como referencia atribuye los datos a Jeff Sackmann / Tennis Abstract y los distribuye bajo **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**. Este repositorio del TFG no redistribuye los datos originales.
+| Dependencia | Licencia |
+|---|---|
+| NumPy | BSD 3-Clause |
+| pandas | BSD 3-Clause |
+| SciPy | BSD 3-Clause |
+| scikit-learn | BSD 3-Clause |
+| Matplotlib | licencia basada en PSF y compatible con BSD |
+| seaborn | BSD 3-Clause |
+| statsmodels | BSD 3-Clause |
+| XGBoost | Apache License 2.0 |
+| LightGBM | MIT |
+| IPython | BSD 3-Clause |
+
+Los datos originales pertenecen a Jeff Sackmann / Tennis Abstract. La copia archivística utilizada como referencia indica su distribución bajo **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**. Los datos originales no se redistribuyen en este repositorio.
+
+El código propio se publica para su consulta y ejecución en el contexto de la evaluación académica del TFG. No se ha asignado una licencia abierta específica para su reutilización general.
 
 ## Memoria del TFG
 
