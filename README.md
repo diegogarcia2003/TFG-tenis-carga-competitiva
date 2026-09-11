@@ -66,13 +66,23 @@ Los notebooks se publican con sus celdas ejecutadas y sus resultados guardados. 
 
 ## Reproducción básica
 
-1. Obtenga los datos ATP necesarios desde la copia archivística indicada en `data/README.md`.
-2. Sitúe los archivos en la estructura esperada por el Notebook 01.
-3. Instale las dependencias especificadas en `requirements.txt`.
-4. Ejecute los notebooks secuencialmente del `01` al `09`.
-5. Para una comprobación reproducible de cada notebook, reinicie el kernel y ejecute todas sus celdas en orden.
+Para reproducir completamente el análisis desde los datos originales:
 
-Los notebooks generan los archivos intermedios necesarios para las etapas posteriores del pipeline. La temporada 2024 se mantiene separada de las fases de selección y desarrollo y se utiliza únicamente en la evaluación temporal externa.
+1. Descargue la copia archivística de los datos ATP enlazada en la sección `Fuente de datos`. Puede descargarse el repositorio archivístico completo en formato ZIP.
+2. Descomprima el archivo descargado y localice en su interior la carpeta `atp`.
+3. Copie dicha carpeta en la raíz de este repositorio y renómbrela como `tennis_atp-master`. Debe quedar al mismo nivel que los notebooks:
+
+text
+TFG-tenis-carga-competitiva/
+├── 01_preparacion_datos_atp.ipynb
+├── 02_transformacion_y_preparacion_predictores_tradicionales.ipynb
+├── ...
+├── 09_evaluacion_temporal_externa_2024.ipynb
+└── tennis_atp-master/
+    ├── atp_matches_2008.csv
+    ├── atp_matches_2009.csv
+    ├── ...
+    └── atp_matches_2024.csv
 
 ## Dependencias
 
