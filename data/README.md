@@ -31,7 +31,7 @@ Los años 2008 y 2021 se utilizan exclusivamente como periodos de historial prev
 
 ## Ubicación esperada
 
-El Notebook 01 espera encontrar los archivos originales en una carpeta con la siguiente estructura relativa:
+El Notebook 01 espera encontrar los datos originales en:
 
 ```text
 ./tennis_atp-master/
