@@ -1,0 +1,18 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Datos originales e intermedios
+tennis_atp-master/
+interim/
+*.csv
+
+# Archivos generados por el pipeline
+configuracion_variables_modelos.json
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
