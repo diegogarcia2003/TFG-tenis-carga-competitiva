@@ -66,11 +66,12 @@ Los notebooks se publican con sus celdas ejecutadas y sus resultados guardados. 
 
 ## Reproducción básica
 
-Para reproducir completamente el análisis desde los datos originales:
+1. Descargue la copia archivística de los datos ATP indicada en la sección `Fuente de datos`.
+2. Descomprima el archivo, localice la carpeta `atp`, cópiela en la raíz de este repositorio y renómbrela como `tennis_atp-master`.
+3. Instale las dependencias de `requirements.txt` con Python 3.12.5.
+4. Ejecute los notebooks secuencialmente del `01` al `09`, reiniciando el kernel y ejecutando todas las celdas en orden.
 
-1. Descargue la copia archivística de los datos ATP enlazada en la sección `Fuente de datos`. Puede descargarse el repositorio archivístico completo en formato ZIP.
-2. Descomprima el archivo descargado y localice en su interior la carpeta `atp`.
-3. Copie dicha carpeta en la raíz de este repositorio y renómbrela como `tennis_atp-master`. Debe quedar al mismo nivel que los notebooks:
+No es necesario eliminar los archivos de años no utilizados que pueda contener la copia archivística, ya que el Notebook 01 selecciona automáticamente los periodos requeridos. Los archivos intermedios se generan durante la ejecución.
 
 ```text
 TFG-tenis-carga-competitiva/
