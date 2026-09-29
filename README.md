@@ -13,6 +13,10 @@ El objetivo del estudio es analizar si la carga competitiva acumulada externa ob
 
 El pipeline incluye la preparación y validación de los datos, la construcción de variables de carga competitiva, el análisis y selección de predictores, el desarrollo de modelos mediante validación temporal y la evaluación temporal externa reservada para la temporada 2024.
 
+## Documentación
+
+- [📄 Memoria completa del TFG](docs/TFG_Diego_Garcia_Alba.pdf)
+
 ## Fuente de datos
 
 Los datos utilizados fueron descargados originalmente del repositorio **tennis_atp** mantenido por Jeff Sackmann, disponible en el momento de obtención de los datos. Actualmente dicho repositorio oficial ya no se encuentra disponible.
